@@ -5559,7 +5559,7 @@ section.lazy-placeholder:after {
 .cid-s6Wb903vy0 .carousel-item {
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   -o-transition: -o-transform 0.6s ease-in-out;
   -webkit-transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out, -o-transform 0.6s ease-in-out;
@@ -5692,7 +5692,7 @@ section.lazy-placeholder:after {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contaun;
 }
 .cid-s6Wb903vy0 .full-screen .slider-fullscreen-image.active {
   display: -o-flex;
@@ -5738,8 +5738,8 @@ section.lazy-placeholder:after {
   display: inline-block;
 }
 .cid-s6Wb903vy0 .image_wrapper img {
-  width: auto !important;
-  height: 100%;
+  width: 100% !important;
+  height: auto;
 }
 .cid-s6Wb903vy0 .carousel-item .container-slide {
   text-align: center;
